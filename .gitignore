@@ -1,0 +1,56 @@
+# ---- 构建目录 ----
+build/
+build-*/
+cmake-build-*/
+out/
+install/
+_deps/
+
+# ---- CMake 生成物 ----
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# ---- 编译产物 ----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.exp
+*.pdb
+
+# ---- CUDA 中间产物 ----
+*.ptx
+*.cubin
+*.fatbin
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+.clangd/
+.cache/
+*.swp
+*.swo
+*~
+
+# ---- Python（benchmarks/tests 脚本）----
+__pycache__/
+*.py[cod]
+
+# ---- 本地私有配置（settings.json 本身需要提交）----
+.claude/settings.local.json
+
+# ---- 系统 ----
+.DS_Store
+
+.claude/

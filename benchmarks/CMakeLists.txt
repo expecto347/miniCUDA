@@ -1,0 +1,3 @@
+add_executable(bench_vector_add bench_vector_add.cu)
+
+target_link_libraries(bench_vector_add PRIVATE ck)
