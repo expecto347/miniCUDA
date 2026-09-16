@@ -34,11 +34,12 @@ compile_commands.json
 *.cubin
 *.fatbin
 
-# ---- 编辑器 / IDE ----
+# ---- 编辑器 / IDE / 工具 ----
 .vscode/
 .idea/
 .clangd/
 .cache/
+.claude/
 *.swp
 *.swo
 *~
@@ -47,10 +48,5 @@ compile_commands.json
 __pycache__/
 *.py[cod]
 
-# ---- 本地私有配置（settings.json 本身需要提交）----
-.claude/settings.local.json
-
 # ---- 系统 ----
 .DS_Store
-
-.claude/

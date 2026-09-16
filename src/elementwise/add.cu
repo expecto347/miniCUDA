@@ -19,7 +19,7 @@ namespace ck
 
     void vector_add(const float *a, const float *b, float *c, int n)
     {
-        // n <= 0 时 blocks 会算成 0，而 <<<0, threads>>> 是非法启动配置
+        // n <= 0 时 blocks 会算成 0
         if (n <= 0)
         {
             return;
